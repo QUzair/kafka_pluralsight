@@ -22,7 +22,7 @@ public class Main {
         SuggestionEngine suggestionEngine = new SuggestionEngine();
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "localhost:9093,localhost:9094");
+        props.put("bootstrap.servers", "localhost:9093,localhost:9092");
         props.put("group.id", "user-tracking-consumer");
         props.put("key.deserializer", "io.confluent.kafka.serializers.KafkaAvroDeserializer");
         props.put("value.deserializer", "io.confluent.kafka.serializers.KafkaAvroDeserializer");

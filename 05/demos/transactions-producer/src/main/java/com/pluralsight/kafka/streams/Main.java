@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "localhost:9093,localhost:9094");
+        props.put("bootstrap.servers", "localhost:9093,localhost:9092");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "io.confluent.kafka.serializers.KafkaAvroSerializer");
         props.put("schema.registry.url", "http://localhost:8081");

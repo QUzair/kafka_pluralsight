@@ -11,8 +11,7 @@
       "type": "string"
     }, {
       "name": "dateOfBirth",
-      "type": "int",
-      "logicalType": "date"
+      "type": { "type": "int", "logicalType": "date" }
     }
   ]
 }
